@@ -1,0 +1,105 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* section1 */
+
+.section1 {
+    background-image: url("../images/Rectangle\ 30.png");
+    padding: 32px 125px 96px 125px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 54px;
+}
+
+a {
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-top: 327px;
+    text-align: center;
+    
+}
+
+/* section2 */
+
+.section2 {
+    padding: 96px 125px;
+    background-color: #2A2626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 48px;
+    color: antiquewhite;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    gap: 123px;
+    margin-top: 42px;
+}
+
+.sect2Photos:hover {
+    box-shadow: 0 40px 20px black;
+}
+
+/* section3 */
+
+.section3 {
+    padding: 96px 125px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 42px;
+}
+
+.photo2Container {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    color: antiquewhite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
