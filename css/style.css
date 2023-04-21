@@ -103,3 +103,26 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: justify;
 }
+
+footer {
+    padding: 32px 125px;
+    background-color: #2A2626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 49px;
+    color: white;
+}
+
+.fa-envelope {
+    font-size: 3.75rem;
+}
+
+.fa-brands {
+    font-size: 3.75rem;
+}
+
