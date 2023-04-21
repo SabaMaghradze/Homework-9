@@ -104,6 +104,8 @@ h2 {
     text-align: justify;
 }
 
+/* footer */
+
 footer {
     padding: 32px 125px;
     background-color: #2A2626;
@@ -125,4 +127,5 @@ footer {
 .fa-brands {
     font-size: 3.75rem;
 }
+
 
