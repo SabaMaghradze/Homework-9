@@ -7,9 +7,12 @@
 /* section1 */
 
 .section1 {
+    width: 100%;
     background-image: url("../images/Rectangle\ 30.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 32px 125px 96px 125px;
-
 }
 
 header {
@@ -34,6 +37,10 @@ a {
 a:hover {
     color: goldenrod;
     text-decoration: underline;
+}
+
+.burgerIcon {
+    display: none;
 }
 
 p {
